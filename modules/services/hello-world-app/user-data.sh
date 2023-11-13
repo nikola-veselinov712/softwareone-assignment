@@ -8,7 +8,7 @@ EOF
 
 sudo apt-get update
 sudo apt-get install -y mysql-client
-# apt install mariadb-client-core-10.3 >> index.html
+# apt install mariadb-client-core-10.3
 mysql --version >> index.html
 mysql -h ${db_address} -u xxxxxxxxx -pxxxxxxxxx  -P ${db_port}
 
